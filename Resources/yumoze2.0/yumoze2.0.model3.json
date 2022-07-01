@@ -1,0 +1,26 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "yumoze2.0.moc3",
+		"Textures": [
+			"yumoze2.0.4096/texture_00.png"
+		],
+		"Physics": "yumoze2.0.physics3.json",
+		"DisplayInfo": "yumoze2.0.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}
